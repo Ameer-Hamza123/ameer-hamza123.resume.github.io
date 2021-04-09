@@ -1,0 +1,69 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+
+.section {
+    color: #fff;
+    display: inline-block;
+    width: 49%;
+}
+
+.lorem {
+    max-width: 40%
+}
+
+.about-me {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.section .section-1 {
+    position: relative;
+    height: 100vh;
+}
+
+.image-text {
+    position: absolute;
+    bottom: 50px;
+    text-align: center;
+    width: 40%;
+}
+
+.profile-image {
+    height: 100vh;
+    width: 80%;
+}
+
+.section-1 .image-text div {
+    font-weight: bold;
+    color: #36ad36;
+}
+
+.section-2 .service {
+    width: 40%;
+    display: inline-block;
+}
+
+.section-2 {
+    position: absolute;
+    top: 50px;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+.slesh {
+    color: lightgray;
+}
+
+.my-details {
+    color: #36ad36;
+}
+
+.font {
+    font-size: 30px;
+}
